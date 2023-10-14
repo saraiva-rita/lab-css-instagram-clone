@@ -1,10 +1,96 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+}
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.bg-half-blue {
+  background-color: #1c5380;
+  height: 50vh;
+}
+.insta-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 67%;
+  padding-top: 40px;
+}
+.phones {
+  padding-top: 5%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c5380;
+}
+.login-button img {
+  width: 30%;
+  height: 4vh;
+  padding-right: 5px;
+}
+.login-button p {
+  color: #fff;
+}
+.content-info {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+  width: 75%;
+  line-height: 1.5;
+  text-align: justify;
+  -webkit-box-shadow: -6px -5px 11px -4px rgba(173, 173, 173, 1);
+  -moz-box-shadow: -6px -5px 11px -4px rgba(173, 173, 173, 1);
+  box-shadow: -6px -5px 11px -4px rgba(173, 173, 173, 1);
+}
+.content-info h1 {
+  width: 55%;
+  padding-bottom: 16px;
+  text-align: left;
+  color: #1c5380;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.downlds {
+  padding: 20px 0;
+}
+.downlds img {
+  padding-right: 20px;
+}
+footer {
+  color: #1c5380;
+  font-size: 12px;
+  margin-top: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+li {
+  padding: 10px;
+  color: #1c5380;
+}
+li:last-child {
+  color: #adadad;
 }
